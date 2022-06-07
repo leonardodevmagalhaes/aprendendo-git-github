@@ -9,7 +9,10 @@
 
     📌 Proposta
 
-    A proposta deste guia é ajudar as pessoas que queiram aprender a utilizar o git e o github como ferramenta de trabalho, organização e aprendizado. Este guia pode ajudar você a conhecer a ferramenta e até mesmo a tirar dúvidas caso já a utilize. 
+    A proposta deste guia é ajudar as pessoas que queiram aprender 
+    a utilizar o git e o github como ferramenta de trabalho, organização 
+    e aprendizado. Este guia pode ajudar você a conhecer a ferramenta 
+    e até mesmo a tirar dúvidas caso já a utilize. 
 
 ## 🧭 Índice
 

@@ -19,6 +19,7 @@
 
 - [Fundamentos e conceitos iniciais](#-Fundamentos-e-conceitos-iniciais)
 - [Git e GitHub são a mesma coisa](#-Git-e-GitHub-são-a-mesma-coisa)
+- [Instalação e configuração](#-Instalação-e-configuração)
 - [Comandos iniciais](#-Comandos-iniciais)
 - [O que são e como trabalhar com branchs](#-O-que-são-e-como-trabalhar-com-branchs)
 - [git clone](#-git-clone)
@@ -52,7 +53,7 @@ O git e o github trabalham com repositórios, diretórios, mas não precisa se a
 
 ---
 ## 📍 Git e GitHub são a mesma coisa
-<h2 align="center"> <img align="center" alt="leo-animação" height="250" width="" src="./images/image1.png" /> </h2>
+<h2 align="center"> <img align="center" alt="leo-git-github" height="250" width="" src="./images/image1.png" /> </h2>
 
 <p align="justify">
 Não! O git e o github são coisas diferentes, porém trabalham juntos.
@@ -68,6 +69,51 @@ Já github é uma plataforma onde podemos hospedar nossos códigos, lá temos ac
     ou diferencial, atualmente as empresas já inserem git e github como
     requisito para a vaga.
 </p>
+
+## 🌐 Instalação e configuração
+
+- Para instalar o git é muito simples, basta acessar o site oficial [clique aqui](https://git-scm.com/) e baixar a versão mais atual do git.
+<h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image2.png" /> </h2>
+A instalação é padrão, basicamente você só precisa ir clicando em next, next até chegar ao fim!
+
+Neste link o git será baixado para o sistema operacional windows, porém você pode obter o git também para linux ou macOS
+[Saiba mais](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git)
+
+- Crie sua conta no github [clique aqui](https://github.com/) 
+
+<h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image4.png" /> </h2>
+
+A criação da conta no github é muito simples, basta ir fornencendo as informações que lhe forem pedidas e lembre-se do email que inserir lá, utilizaremos este mesmo email em configurações do git.
+
+- Git Bash
+
+O git fornce um terminal exclusivo chamado de git bash, ele é um terminal normal que já é instalado junto com o git e podemos executar todos os comandos de um terminal normalmente, a diferença é que o bash é personalizado para mexermos com git, mas fique a vontade para utilizar o seu terminal preferido. Para abrirmos basta clicar com o botão direito na pasta escolhida e pronto ele abrirá dentro daquele repositório (pasta).
+
+<h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image3.png" /> </h2>
+
+Com o git bash aberto você pode inserir o comando:
+
+```bash
+$ git --version
+```
+Este coamndo mostra a versão do git instalada atualmente e se mostrar a versão significa que está tudo certo e podemos começar a trabalhar.
+
+Agora vamos nos indentificar para o git com os comandos:
+
+```bash
+$ git config --global user.name "seu nome"
+```
+```bash
+$ git config --global user.email "seu email"
+```
+Utilize o mesmo email que inseriu para criar sua conta no github.
+
+Caso precise ou queira visulalizar os seus dados insira o comando:
+
+```bash
+$ git config --list
+```
+🎉 Agora sim estamos prontos para começar!
 
 ---
 ## 📝 Comandos iniciais

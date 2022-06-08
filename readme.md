@@ -87,7 +87,7 @@ A criação da conta no github é muito simples, basta ir fornencendo as informa
 
 - Git Bash
 
-O git fornce um terminal exclusivo chamado de git bash, ele é um terminal normal que já é instalado junto com o git e podemos executar todos os comandos de um terminal normalmente, a diferença é que o bash é personalizado para mexermos com git, mas fique a vontade para utilizar o seu terminal preferido. Para abrirmos basta clicar com o botão direito na pasta escolhida e pronto ele abrirá dentro daquele repositório (pasta).
+O git fornece um terminal exclusivo chamado de git bash, ele é um terminal normal que já é instalado junto com o git e podemos executar todos os comandos de um terminal normalmente, a diferença é que o bash é personalizado para mexermos com git, mas fique a vontade para utilizar o seu terminal preferido. Para abrirmos basta clicar com o botão direito na pasta escolhida, clicar em git Bash e pronto ele abrirá dentro daquele repositório (pasta).
 
 <h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image3.png" /> </h2>
 
@@ -96,7 +96,7 @@ Com o git bash aberto você pode inserir o comando:
 ```bash
 $ git --version
 ```
-Este coamndo mostra a versão do git instalada atualmente e se mostrar a versão significa que está tudo certo e podemos começar a trabalhar.
+Este coamando mostra a versão do git instalada atualmente e se mostrar a versão significa que está tudo certo e podemos começar a trabalhar.
 
 Agora vamos nos indentificar para o git com os comandos:
 
@@ -117,30 +117,87 @@ $ git config --list
 
 ---
 ## 📝 Comandos iniciais
+
+- Versionando nosso primeiro arquivo
+
+
+Tenha em mente que começaremos trabalhando com o git (local). Crie uma pasta em sua máquina e dentro dela crie um arquivo.txt e nomeie de lista.txt, entre dentro deste arquivo e escreva o nome de alguns filmes por exemplo.
+
+Agora temos que informar para o git que queremos versionar aquele diretório, então abra o git bash dentro desta pasta e insira o commando: 
+
 - git init
     ```bash
     $ git init
     ```
+
+    Este comando inicia o git, informa para ele que queremos vercionar os arquivos que alí estão, você vai notar a criação de uma pasta oculta dentro da pasta isso significa que o git foi iniciado com sucesso e não apague estes arquivos pois é alí que o git faz todos os processos necessários, voce pode entrar e ver porém não mexa em nada.
+
+    <h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image5.png" /> </h2>
+
+        💡 Caso não esteja aparecendo clique em exibir e marque a opção itens ocultos
+
+    <h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image6.png" /> </h2>
     
+<br>
+
+- Adicionando os arquivos na área de stage:
+
+Agora que inciamos nosso git dentro da pasta precisamos informar quais arquivos serão rastreados pelo git, chamamos essa parte de stage pois é como se fosse os artistas de um show minutos antes de entrarem no palco, eles ficam esperando atrás da cortina para se apresentarem. Para colcarmos nossos arquivos na área de stage daremos o seguinte comando no git bash. Lembre sempre de estar dentro da pasta correta dentro do git bash!
+
 - git add
     ```bash
-    $ git add
+    $ git add "nome_do_arquivo.extensão"
     ```
+
+    Após digitar o comando "git add" você terá que espeficar o nome do arquivo e sua extensão, no nosso exemplo seria assim: $ git add "lista.txt"
+    
+    Mas vamos pensar, se nós tivessemos vários arquivos no projeto, temos que escrever o comando para todos os arquivos? Não! podemos inserir todos de uma só vez com uma pequena variação deste comando, assim:
+   ```bash
+    $ git add .
+    ```
+    Agora pronto, todos os arquivos serão adicionados de uma vez.
+
+<br>
+
+Agora sim nossos arquivos estão prontos para "apresentarem-se no show", quero dizer serem versionados, por tanto agora criaremos a primeira versão do nosso arquivo com o comando:
 
 - git commit
     ```bash
-    $ git commit -m "nome_do_commit"
+    $ git commit -m "nome do commit"
     ```
+    Dado este comando temos uma versão do nosso arquivo, o "-m" que vemos significa somente a mensagem que identifica o que fizemos de alterações, você pode colocar qualquer mensagem, porém sugiro colocar mensagenm que faça um sentido cronológico pois caso precise voltar em alguma versão elas estarão bem organizadas.
+
+<br>
+Beleza temos nossa versão do arquivo e o próximo passo é mandar este lindo arquivo para o github.
+
+Entre em sua conta github e clique no canto superior direito em sua foto -> Your profile -> Repositóries, aqui é onde ficam seus projetos e todos podem entrar em seu perfil e visualizá-los, porém temos que criar um repositório.
+
+Existe um botão do lado esquerdo destacado chamado "New" clique nele e informe o nome do repositório, é interessante que seja o mesmo nome da pasta onde estão os arquivos do seu projeto, após isso é só descer até o fim da página e clique em create repository e vualá, temos nosso repositório criado e agora temos que ligar este repositório do github com nosso projeto que está em nossa máquina, como fazemos isso? veja o próximo comando:
 
 - git remote add origin
     ```bash
     $ git remote add origin link_do_repositório
     ```
 
+    Com este comando fazemos uma ponte entre nosso arquivo local e nosso repositório no github. desta forma esta ponte só precisa ser feita uma vez pois a partir de então ela permanecerá, portanto só precisamos escrever este comando uma vez para aquele repositório.
+
+E agora chegou a tão esperada hora, vamos push "empurrar" nosso projeto para o github com o comando:
+
 - git push -u origin
     ```bash
     $ git push -u origin nome_da_branch
     ```
+    Este comando pode parecer feio porém você o fará muito e temos que firmar algumas informações:
+    
+    1 - O "-u" que vemos só precisa ser colocado na primeira vez que inserimos este comando para aquele reposótório.
+    
+    2 - O "nome_da_branch" indica de onde vai partir a versão do projeto, você entenderá o que é branch na próxima sessão, o importante agora é você saber que você está na branch master, na qual o nome pode ser alterado, veremo isso também mais adiante, porém se você não a alterou, não fez nada, você está na branch master e  o comando será o seguinte:
+
+     ```bash
+    $ git push -u master
+    ```
+
+Agora você pode dar um refresh na página do seu github ou entrar novamente em sua conta e estará lá o seu repositório com o arquivo dentro.
 
 ---
 ## O que são e como trabalhar com branchs

@@ -18,7 +18,7 @@
 ## 🧭 Índice
 
 - [Fundamentos e conceitos iniciais](#-Fundamentos-e-conceitos-iniciais)
-- [Git e GitHub são a mesma coisa?](#-Git-e-GitHub-são-a-mesma-coisa?)
+- [Git e GitHub são a mesma coisa](#-Git-e-GitHub-são-a-mesma-coisa)
 - [Comandos iniciais](#-Comandos-iniciais)
 - [O que são e como trabalhar com branchs](#-O-que-são-e-como-trabalhar-com-branchs)
 - [git clone](#-git-clone)
@@ -51,7 +51,7 @@ O git e o github trabalham com repositórios, diretórios, mas não precisa se a
 </p>
 
 ---
-## 📍 Git e GitHub são a mesma coisa?
+## 📍 Git e GitHub são a mesma coisa
 <h2 align="center"> <img align="center" alt="leo-animação" height="250" width="" src="./images/image1.png" /> </h2>
 
 <p align="justify">
@@ -61,17 +61,40 @@ Não! O git e o github são coisas diferentes, porém trabalham juntos.
 
 O git é uma ferramenta instalada localmente, ou seja, fica na sua máquina, tudo que você fizer ficará armazenado e somente você terá acesso, justamente por ser local.
 
-Já github é uma plataforma onde podemos hospedar nosso códigos, lá temos acesso as versões criadas, alterações feitas e ainda funciona como uma rede social para programadores, muitos profissionais utilizam o github como portifólio para mostrarem seu projetos.
+Já github é uma plataforma onde podemos hospedar nossos códigos, lá temos acesso as versões criadas, alterações feitas e ainda funciona como uma rede social para programadores, muitos profissionais utilizam o github como portifólio para mostrarem seu projetos.
 
-    💡 Em tempos mais antigos quando as empresas ofertavam vagas de emprego de
-    desevolvedores inseriam o git e o github como pre-requistos adicionais
+    💡 Em tempos mais antigos quando as empresas ofertavam vagas de emprego para
+    desevolvedores, inseriam o git e o github como pré-requistos adicionais
     ou diferencial, atualmente as empresas já inserem git e github como
-    requisito para a vaga
+    requisito para a vaga.
 </p>
 
 ---
-## Comandos iniciais
+## 📝 Comandos iniciais
+- git init
+    ```bash
+    $ git init
+    ```
+    
+- git add
+    ```bash
+    $ git add
+    ```
 
+- git commit
+    ```bash
+    $ git commit -m "nome_do_commit"
+    ```
+
+- git remote add origin
+    ```bash
+    $ git remote add origin link_do_repositório
+    ```
+
+- git push -u origin
+    ```bash
+    $ git push -u origin nome_da_branch
+    ```
 
 ---
 ## O que são e como trabalhar com branchs

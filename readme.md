@@ -36,18 +36,19 @@
 - Vamos começar entendendo o problema
 
 <p align="justify">
-Lembremos da época de escola em que tinhamos que formar equipes e fazer um trabalho, cada um ficava responsável por uma parte, portanto você fazia sua parte e mandanva para "o colega", aquele mesmo, que ficava responsável por juntar tudo no final. Você termina sua parte e manda para ele, ele analisa a sua parte e lhe pede para alterar algo pois não está legal, você gera um novo arquivo com a alteração e manda, porém ele lhe retorna novamente pedindo outra alteração, você gera mais um arquivo e manda, desta vez "o colega" diz que a versão anterior estava melhor e pede para você manda-lá novamente, só que você não tem mais, pois apagou. 😟
-
-Então temos um problema, a pasta do trabalho está cheia de arquivos "trabalho final", "Agora vai", "ultimo", "trabalho dos infernos" e alguma das versões que "o colega" pediu você não tem mais, e agora? 😰
+Lembremos da época de escola em que tinhamos que formar equipes e fazer um trabalho, cada um ficava responsável por uma parte, portanto você fazia sua parte e mandanva para "o colega", aquele mesmo, que ficava responsável por juntar tudo no final. Você termina sua parte e manda para ele, ele analisa a sua parte e lhe pede para alterar algo pois não está legal, você gera um novo arquivo com a alteração e manda, porém ele lhe retorna novamente pedindo outra alteração, você gera mais um arquivo e manda, desta vez "o colega" diz que a versão anterior estava melhor e pede para você manda-lá novamente, só que você não tem mais, pois apagou. 😟</p>
+<p align="justify">
+Então temos um problema, a pasta do trabalho está cheia de arquivos "trabalho final", "Agora vai", "ultimo", "trabalho dos infernos" e alguma das versões que "o colega" pediu você não tem mais, e agora? 😰</p>
 
 - A solução é o git! 🤯
-
-O git é uma ferramenta de versionamento de código gratuita e open source, com ela você pode organizar as versões do seu código sem ter que criar inúmeros arquivos para fazer alterações, ela permite que tenhamos controle de tudo aquilo que já escrevemos, apagamos e tudo que fizemos ou vamos fazer de alterações, de modo fantasioso podemos descrevê-la como uma máquina do tempo para códigos. 😁
-
+<p align="justify">
+O git é uma ferramenta de versionamento de código gratuita e open source, com ela você pode organizar as versões do seu código sem ter que criar inúmeros arquivos para fazer alterações, ela permite que tenhamos controle de tudo aquilo que já escrevemos, apagamos e tudo que fizemos ou vamos fazer de alterações, de modo fantasioso podemos descrevê-la como uma máquina do tempo para códigos. 😁 </p>
+<p align="justify">
 Ainda sim podemos trabalhar com várias pessoas no mesmo projeto, sem que ocorram conflitos.
+</p>
 
 - Conceito de repositório
-
+<p align="justify">
 O git e o github trabalham com repositórios, diretórios, mas não precisa se assustar, no seu dia a dia você é acostumado a mexer com pastas, seja criando, movendo, apagando, o git chama essas pastas de repositórios.
 </p>
 
@@ -202,6 +203,51 @@ Agora você pode dar um refresh na página do seu github ou entrar novamente em 
 ---
 ## O que são e como trabalhar com branchs
 
+Para entendermos o que são branchs vamos visualizar uma imagem que resume o que elas são, observe:
+
+<h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image7.png" /> </h2>
+
+Repare que existe a branch master/main, ela é o caminho principal, é a cornologia do nosso arquivo, cada círculo representa um commit que você fez, então chegamos nas branch.
+
+- Branch
+
+Uma branch é nada mais do que uuma ramificação que fazemos no nosso código para fazer alterações que não temos certeza se irá de fato entrar no projeto, pense assim, você quer colocar um novo botão na sua aplicação porém você só quer testar para ver se realmente fica legal, mas não quer fazer a inclusão de fato e se nao ficar legal você voltar para a versão anterior do código, utilize uma branch, nela você faz commits normalmente e quando sentir que está pronto e quiser incluir é só fazer a inclusão.
+
+- Comandos:
+
+    ```bash
+    $ git branch
+    ```
+    - Este comando faz
+
+    <br>
+    
+    ```bash
+    $ git branch nome_da_branch
+    ```
+    - Este comando faz
+
+    <br>
+    
+    ```bash
+    $ git checkout -b "nome_da_branch
+    ```
+    - Este comando faz
+
+    <br>
+    
+    ```bash
+    $ git checkout nome_da_branch
+    ```
+    - Este comando faz
+
+    <br>
+
+    
+    ```bash
+    $ git merge nome_da_branch
+    ```
+    - Este comando faz
 
 ---
 ## git clone

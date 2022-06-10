@@ -218,28 +218,28 @@ Uma branch é nada mais do que uuma ramificação que fazemos no nosso código p
     ```bash
     $ git branch
     ```
-    - Este comando faz
+    - Com este comando você visualiza quantas branchs existem em seu projeto, na branch que você se localiza no momento aparecerá uma asterisco.
 
     <br>
     
     ```bash
     $ git branch nome_da_branch
     ```
-    - Este comando faz
+    - Aqui temos o comando para criar uma banch, você pode nomea-lá como achar melhor, porém é interessante que o você escreva algo sucinto.
 
     <br>
     
     ```bash
     $ git checkout -b "nome_da_branch
     ```
-    - Este comando faz
+    - Este comando também cria uma branch igualmente o comando anterior porém a diferença é que no comando anterior você somente cria a branch e depois temque entrar nela, com este comando você não só cria como já entra nela, e como navegamos nas branchs? veja no próximo topico.
 
     <br>
     
     ```bash
     $ git checkout nome_da_branch
     ```
-    - Este comando faz
+    - Com este comando podemos transitar entre as branchs, é interesante que você visualize quais as branchs existentes com o coamndo git branch,  após isso escreve o coamndo e preste atênção no nome da branch, pois só irá funcionar se você escrever o nome da branch extamente como ela é.
 
     <br>
 
@@ -247,11 +247,25 @@ Uma branch é nada mais do que uuma ramificação que fazemos no nosso código p
     ```bash
     $ git merge nome_da_branch
     ```
-    - Este comando faz
+    - Pronto, agora você já criou sua branch, fez as alterações e decidiu que essa alteração deve entrar no projeto oficial, portanto na branch master/main, agora você faz a integração dessa branch com o comando acima. Mas antes preste atenção em qual branch você está, caso não esteja na master/main vá para ela, somente então você faz o comando de integração e pronto sua branch foi integrada com sucesso.
 
 ---
 ## git clone
 
+O git clone é um comando be simples e útil, pois literalmente podemos clonar um repositório do github de alguém para nossa máquina. Quer ver?
+
+Vá em um repositório de alguém, entre nele e clique no botão code e clique no botão para copiar o link.
+<h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image8.png" /> </h2>
+
+<br>
+
+Feito isso crie uma pasta ou vá a té o local que deseja salvar este repositório em sua máquina, abra o git bash e insira o comando:
+
+<h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image9.png" /> </h2>
+
+Curiosidade: o git bash não aceita "ctrl + v" para colar, utilize "shift + insert" no seu teclado, ele irá colar, ou então "ctrl + shift + v"
+
+E pronto, você agora tem o repositório em sua máquina já com o git inicializado.
 
 ---
 ## git pull

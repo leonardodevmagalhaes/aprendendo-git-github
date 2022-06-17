@@ -270,14 +270,36 @@ E pronto, você agora tem o repositório em sua máquina já com o git inicializ
 ---
 ## git pull
 
+Ao longo do desenvolvimento do código serão feitas mudanças e para você obter sempre a última versão do projeto insira o comando:
+
+```bash
+$ git pull
+```
+
+Com este comando você está seguro de está sempre trabalhando na versão mais atual de um projeto.
+
+Este comando também serve para que se você efetuou o comando de clone de um repositório de alguém e quer "puxar" as novas alterações que esta pessoa por ventura tenha feito, faça um pull.
+
+Caso não tenham novas alterações e a versão já seja a mais atual, o comando pull irá informar.
 
 ---
 ## Fork
 
+O fork é muito simples de se entender. Você já entendeu como funciona o git clone, que faz uma cópia do repositório para sua máquina, porém digamos que você queira fazer uma cópia deste repositório direto para seu github, como fazemos isso?
+
+Utilize o fork 😎
+
+<h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image10.png" /> </h2>
+Entre no repositório desejado e procure no canto superior direito pelo botão fork e clique nele. Apartir daí o processo irá ser feito, uma cópia do repositório aparecerá em seus repositórios.
 
 ---
 ## pull requeste
 
+O pull request é uma colaboração que podemos fazer nos projetos que fizemos fork. Vamos entender melhor.
+
+Você fez o fork em um projeto que achou interessante e teve uma ideia para melhorar o projeto, então você faz a alteração e envia um pull request, o porque disso?
+
+Você fez uma cópia de um projeto que não é seu, você pode fazer alterações porém quem decide se essas alterações irão de fato serem incorporadas no projeto é seu autor, por tanto o pull request é uma contribuição que você faz para um projeto, o autor irá receber esse pull request e decidirá aceitar ou não, isso faz com que a comunidade seja ativa e existam colaborações entre os desenvolvedores da plataforma.
 
 ---
 ## git ignore

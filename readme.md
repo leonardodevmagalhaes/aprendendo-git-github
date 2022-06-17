@@ -26,7 +26,6 @@
 - [git pull](#-git-pull)
 - [Fork](#-fork)
 - [pull requeste](#-pull-requeste)
-- [git ignore](#-git-ignore)
 
 
 ---
@@ -56,14 +55,14 @@ O git e o github trabalham com repositórios, diretórios, mas não precisa se a
 ## 📍 Git e GitHub são a mesma coisa
 <h2 align="center"> <img align="center" alt="leo-git-github" height="250" width="" src="./images/image1.png" /> </h2>
 
-<p align="justify">
+
 Não! O git e o github são coisas diferentes, porém trabalham juntos.
 
 - Afinal qual a diferença?
 
-O git é uma ferramenta instalada localmente, ou seja, fica na sua máquina, tudo que você fizer ficará armazenado e somente você terá acesso, justamente por ser local.
+<p align="justify">O git é uma ferramenta instalada localmente, ou seja, fica na sua máquina, tudo que você fizer ficará armazenado e somente você terá acesso, justamente por ser local.</p>
 
-Já github é uma plataforma onde podemos hospedar nossos códigos, lá temos acesso as versões criadas, alterações feitas e ainda funciona como uma rede social para programadores, muitos profissionais utilizam o github como portifólio para mostrarem seu projetos.
+<p align="justify">Já github é uma plataforma onde podemos hospedar nossos códigos, lá temos acesso as versões criadas, alterações feitas e ainda funciona como uma rede social para programadores, muitos profissionais utilizam o github como portifólio para mostrarem seu projetos.
 
     💡 Em tempos mais antigos quando as empresas ofertavam vagas de emprego para
     desevolvedores, inseriam o git e o github como pré-requistos adicionais
@@ -75,7 +74,7 @@ Já github é uma plataforma onde podemos hospedar nossos códigos, lá temos ac
 
 - Para instalar o git é muito simples, basta acessar o site oficial [clique aqui](https://git-scm.com/) e baixar a versão mais atual do git.
 <h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image2.png" /> </h2>
-A instalação é padrão, basicamente você só precisa ir clicando em next, next até chegar ao fim!
+<p align="justify">A instalação é padrão, basicamente você só precisa ir clicando em next, next até chegar ao fim!</p>
 
 Neste link o git será baixado para o sistema operacional windows, porém você pode obter o git também para linux ou macOS
 [Saiba mais](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git)
@@ -84,11 +83,11 @@ Neste link o git será baixado para o sistema operacional windows, porém você 
 
 <h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image4.png" /> </h2>
 
-A criação da conta no github é muito simples, basta ir fornencendo as informações que lhe forem pedidas e lembre-se do email que inserir lá, utilizaremos este mesmo email em configurações do git.
+<p align="justify">A criação da conta no github é muito simples, basta ir fornencendo as informações que lhe forem pedidas e lembre-se do email que inserir lá, utilizaremos este mesmo email em configurações do git.</p>
 
 - Git Bash
 
-O git fornece um terminal exclusivo chamado de git bash, ele é um terminal normal que já é instalado junto com o git e podemos executar todos os comandos de um terminal normalmente, a diferença é que o bash é personalizado para mexermos com git, mas fique a vontade para utilizar o seu terminal preferido. Para abrirmos basta clicar com o botão direito na pasta escolhida, clicar em git Bash e pronto ele abrirá dentro daquele repositório (pasta).
+<p align="justify">O git fornece um terminal exclusivo chamado de git bash, ele é um terminal normal que já é instalado junto com o git e podemos executar todos os comandos de um terminal normalmente, a diferença é que o bash é personalizado para mexermos com git, mas fique a vontade para utilizar o seu terminal preferido. Para abrirmos basta clicar com o botão direito na pasta escolhida, clicar em git Bash e pronto ele abrirá dentro daquele repositório (pasta).</p>
 
 <h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image3.png" /> </h2>
 
@@ -122,16 +121,16 @@ $ git config --list
 - Versionando nosso primeiro arquivo
 
 
-Tenha em mente que começaremos trabalhando com o git (local). Crie uma pasta em sua máquina e dentro dela crie um arquivo.txt e nomeie de lista.txt, entre dentro deste arquivo e escreva o nome de alguns filmes por exemplo.
+<p align="justify">Tenha em mente que começaremos trabalhando com o git (local). Crie uma pasta em sua máquina e dentro dela crie um arquivo.txt e nomeie de lista.txt, entre dentro deste arquivo e escreva o nome de alguns filmes por exemplo.</p>
 
-Agora temos que informar para o git que queremos versionar aquele diretório, então abra o git bash dentro desta pasta e insira o commando: 
+<p align="justify">Agora temos que informar para o git que queremos versionar aquele diretório, então abra o git bash dentro desta pasta e insira o commando: </p>
 
 - git init
     ```bash
     $ git init
     ```
 
-    Este comando inicia o git, informa para ele que queremos vercionar os arquivos que alí estão, você vai notar a criação de uma pasta oculta dentro da pasta isso significa que o git foi iniciado com sucesso e não apague estes arquivos pois é alí que o git faz todos os processos necessários, voce pode entrar e ver porém não mexa em nada.
+    <p align="justify">Este comando inicia o git, informa para ele que queremos vercionar os arquivos que alí estão, você vai notar a criação de uma pasta oculta dentro da pasta isso significa que o git foi iniciado com sucesso e não apague estes arquivos pois é alí que o git faz todos os processos necessários, voce pode entrar e ver porém não mexa em nada.</p>
 
     <h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image5.png" /> </h2>
 
@@ -143,7 +142,7 @@ Agora temos que informar para o git que queremos versionar aquele diretório, en
 
 - Adicionando os arquivos na área de stage:
 
-Agora que inciamos nosso git dentro da pasta precisamos informar quais arquivos serão rastreados pelo git, chamamos essa parte de stage pois é como se fosse os artistas de um show minutos antes de entrarem no palco, eles ficam esperando atrás da cortina para se apresentarem. Para colcarmos nossos arquivos na área de stage daremos o seguinte comando no git bash. Lembre sempre de estar dentro da pasta correta dentro do git bash!
+<p align="justify">Agora que inciamos nosso git dentro da pasta precisamos informar quais arquivos serão rastreados pelo git, chamamos essa parte de stage pois é como se fosse os artistas de um show minutos antes de entrarem no palco, eles ficam esperando atrás da cortina para se apresentarem. Para colcarmos nossos arquivos na área de stage daremos o seguinte comando no git bash. Lembre sempre de estar dentro da pasta correta dentro do git bash!</p>
 
 - git add
     ```bash
@@ -152,7 +151,7 @@ Agora que inciamos nosso git dentro da pasta precisamos informar quais arquivos 
 
     Após digitar o comando "git add" você terá que espeficar o nome do arquivo e sua extensão, no nosso exemplo seria assim: $ git add "lista.txt"
     
-    Mas vamos pensar, se nós tivessemos vários arquivos no projeto, temos que escrever o comando para todos os arquivos? Não! podemos inserir todos de uma só vez com uma pequena variação deste comando, assim:
+    <p align="justify">Mas vamos pensar, se nós tivessemos vários arquivos no projeto, temos que escrever o comando para todos os arquivos? Não! podemos inserir todos de uma só vez com uma pequena variação deste comando, assim:</p>
    ```bash
     $ git add .
     ```
@@ -160,27 +159,27 @@ Agora que inciamos nosso git dentro da pasta precisamos informar quais arquivos 
 
 <br>
 
-Agora sim nossos arquivos estão prontos para "apresentarem-se no show", quero dizer serem versionados, por tanto agora criaremos a primeira versão do nosso arquivo com o comando:
+<p align="justify">Agora sim nossos arquivos estão prontos para "apresentarem-se no show", quero dizer serem versionados, por tanto agora criaremos a primeira versão do nosso arquivo com o comando:</p>
 
 - git commit
     ```bash
     $ git commit -m "nome do commit"
     ```
-    Dado este comando temos uma versão do nosso arquivo, o "-m" que vemos significa somente a mensagem que identifica o que fizemos de alterações, você pode colocar qualquer mensagem, porém sugiro colocar mensagenm que faça um sentido cronológico pois caso precise voltar em alguma versão elas estarão bem organizadas.
+    <p align="justify">Dado este comando temos uma versão do nosso arquivo, o "-m" que vemos significa somente a mensagem que identifica o que fizemos de alterações, você pode colocar qualquer mensagem, porém sugiro colocar mensagenm que faça um sentido cronológico pois caso precise voltar em alguma versão elas estarão bem organizadas.</p>
 
 <br>
 Beleza temos nossa versão do arquivo e o próximo passo é mandar este lindo arquivo para o github.
 
-Entre em sua conta github e clique no canto superior direito em sua foto -> Your profile -> Repositóries, aqui é onde ficam seus projetos e todos podem entrar em seu perfil e visualizá-los, porém temos que criar um repositório.
+<p align="justify">Entre em sua conta github e clique no canto superior direito em sua foto -> Your profile -> Repositóries, aqui é onde ficam seus projetos e todos podem entrar em seu perfil e visualizá-los, porém temos que criar um repositório.</p>
 
-Existe um botão do lado esquerdo destacado chamado "New" clique nele e informe o nome do repositório, é interessante que seja o mesmo nome da pasta onde estão os arquivos do seu projeto, após isso é só descer até o fim da página e clique em create repository e vualá, temos nosso repositório criado e agora temos que ligar este repositório do github com nosso projeto que está em nossa máquina, como fazemos isso? veja o próximo comando:
+<p align="justify">Existe um botão do lado esquerdo destacado chamado "New" clique nele e informe o nome do repositório, é interessante que seja o mesmo nome da pasta onde estão os arquivos do seu projeto, após isso é só descer até o fim da página e clique em create repository e vualá, temos nosso repositório criado e agora temos que ligar este repositório do github com nosso projeto que está em nossa máquina, como fazemos isso? veja o próximo comando:</p>
 
 - git remote add origin
     ```bash
     $ git remote add origin link_do_repositório
     ```
 
-    Com este comando fazemos uma ponte entre nosso arquivo local e nosso repositório no github. desta forma esta ponte só precisa ser feita uma vez pois a partir de então ela permanecerá, portanto só precisamos escrever este comando uma vez para aquele repositório.
+    <p align="justify">Com este comando fazemos uma ponte entre nosso arquivo local e nosso repositório no github. desta forma esta ponte só precisa ser feita uma vez pois a partir de então ela permanecerá, portanto só precisamos escrever este comando uma vez para aquele repositório.</p>
 
 E agora chegou a tão esperada hora, vamos push "empurrar" nosso projeto para o github com o comando:
 
@@ -207,11 +206,11 @@ Para entendermos o que são branchs vamos visualizar uma imagem que resume o que
 
 <h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image7.png" /> </h2>
 
-Repare que existe a branch master/main, ela é o caminho principal, é a cornologia do nosso arquivo, cada círculo representa um commit que você fez, então chegamos nas branch.
+<p align="justify">Repare que existe a branch master/main, ela é o caminho principal, é a cornologia do nosso arquivo, cada círculo representa um commit que você fez, então chegamos nas branch.</p>
 
 - Branch
 
-Uma branch é nada mais do que uuma ramificação que fazemos no nosso código para fazer alterações que não temos certeza se irá de fato entrar no projeto, pense assim, você quer colocar um novo botão na sua aplicação porém você só quer testar para ver se realmente fica legal, mas não quer fazer a inclusão de fato e se nao ficar legal você voltar para a versão anterior do código, utilize uma branch, nela você faz commits normalmente e quando sentir que está pronto e quiser incluir é só fazer a inclusão.
+<p align="justify">Uma branch é nada mais do que uuma ramificação que fazemos no nosso código para fazer alterações que não temos certeza se irá de fato entrar no projeto, pense assim, você quer colocar um novo botão na sua aplicação porém você só quer testar para ver se realmente fica legal, mas não quer fazer a inclusão de fato e se nao ficar legal você voltar para a versão anterior do código, utilize uma branch, nela você faz commits normalmente e quando sentir que está pronto e quiser incluir é só fazer a inclusão.</p>
 
 - Comandos:
 
@@ -252,7 +251,7 @@ Uma branch é nada mais do que uuma ramificação que fazemos no nosso código p
 ---
 ## git clone
 
-O git clone é um comando be simples e útil, pois literalmente podemos clonar um repositório do github de alguém para nossa máquina. Quer ver?
+<p align="justify">O git clone é um comando be simples e útil, pois literalmente podemos clonar um repositório do github de alguém para nossa máquina. Quer ver?</p>
 
 Vá em um repositório de alguém, entre nele e clique no botão code e clique no botão para copiar o link.
 <h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image8.png" /> </h2>
@@ -263,7 +262,7 @@ Feito isso crie uma pasta ou vá a té o local que deseja salvar este repositór
 
 <h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image9.png" /> </h2>
 
-Curiosidade: o git bash não aceita "ctrl + v" para colar, utilize "shift + insert" no seu teclado, ele irá colar, ou então "ctrl + shift + v"
+<p align="justify">Curiosidade: o git bash não aceita "ctrl + v" para colar, utilize "shift + insert" no seu teclado, ele irá colar, ou então "ctrl + shift + v"</p>
 
 E pronto, você agora tem o repositório em sua máquina já com o git inicializado.
 
@@ -278,14 +277,14 @@ $ git pull
 
 Com este comando você está seguro de está sempre trabalhando na versão mais atual de um projeto.
 
-Este comando também serve para que se você efetuou o comando de clone de um repositório de alguém e quer "puxar" as novas alterações que esta pessoa por ventura tenha feito, faça um pull.
+<p align="justify">Este comando também serve para que se você efetuou o comando de clone de um repositório de alguém e quer "puxar" as novas alterações que esta pessoa por ventura tenha feito, faça um pull.</p>
 
 Caso não tenham novas alterações e a versão já seja a mais atual, o comando pull irá informar.
 
 ---
 ## Fork
 
-O fork é muito simples de se entender. Você já entendeu como funciona o git clone, que faz uma cópia do repositório para sua máquina, porém digamos que você queira fazer uma cópia deste repositório direto para seu github, como fazemos isso?
+<p align="justify">O fork é muito simples de se entender. Você já entendeu como funciona o git clone, que faz uma cópia do repositório para sua máquina, porém digamos que você queira fazer uma cópia deste repositório direto para seu github, como fazemos isso?</p>
 
 Utilize o fork 😎
 
@@ -297,10 +296,15 @@ Entre no repositório desejado e procure no canto superior direito pelo botão f
 
 O pull request é uma colaboração que podemos fazer nos projetos que fizemos fork. Vamos entender melhor.
 
-Você fez o fork em um projeto que achou interessante e teve uma ideia para melhorar o projeto, então você faz a alteração e envia um pull request, o porque disso?
+<p align="justify">Você fez o fork em um projeto que achou interessante e teve uma ideia para melhorar o projeto, então você faz a alteração e envia um pull request, o porque disso?</p>
 
-Você fez uma cópia de um projeto que não é seu, você pode fazer alterações porém quem decide se essas alterações irão de fato serem incorporadas no projeto é seu autor, por tanto o pull request é uma contribuição que você faz para um projeto, o autor irá receber esse pull request e decidirá aceitar ou não, isso faz com que a comunidade seja ativa e existam colaborações entre os desenvolvedores da plataforma.
+<p align="justify">Você fez uma cópia de um projeto que não é seu, você pode fazer alterações porém quem decide se essas alterações irão de fato serem incorporadas no projeto é seu autor, por tanto o pull request é uma contribuição que você faz para um projeto, o autor irá receber esse pull request e decidirá aceitar ou não, isso faz com que a comunidade seja ativa e existam colaborações entre os desenvolvedores da plataforma.</p>
 
----
-## git ignore
 
+<hr>
+
+<h3 align="center">Algumas palavras</h3>
+
+<p align="justify">Este foi um breve conteúdo sobre git e github, porém ainda existem muitos conceitos para se aprofundar e praticar, espero ter passado um excelente primeira visão sobre o assunto e contruir com a passagem de conhecimento, me diverti o fazendo pois com ele pude consolidar ainda mais meus conhecimentos.</p>
+
+Quem sabe eu ainda volte aqui para explanar mais alguns outros comandos e maneiras de se trabalhar com esta maravilhosa ferramenta. 🖐

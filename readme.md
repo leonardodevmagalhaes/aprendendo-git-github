@@ -275,9 +275,13 @@ Ao longo do desenvolvimento do código serão feitas mudanças e para você obte
 $ git pull
 ```
 
-Com este comando você está seguro de está sempre trabalhando na versão mais atual de um projeto.
+Com este comando você está seguro de estar sempre trabalhando na versão mais atual de um projeto.
 
+<<<<<<< HEAD
 <p align="justify">Este comando também serve para o caso de você ter efetado o comando de clone de um repositório de alguém e quer "puxar" as novas alterações que esta pessoa por ventura tenha feito, faça um pull.</p>
+=======
+<p align="justify">Este comando também serve para o caso de você ter efetuado o clone de um repositório de alguém e quer "puxar" as novas alterações que esta pessoa por ventura tenha feito, faça um pull.</p>
+>>>>>>> e2541ff5553157a5d7a42377ed8b7b585b1323eb
 
 Caso não tenham novas alterações e a versão já seja a mais atual, o comando pull irá informar.
 
@@ -296,7 +300,7 @@ Entre no repositório desejado e procure no canto superior direito pelo botão f
 
 O pull request é uma colaboração que podemos fazer nos projetos que fizemos fork. Vamos entender melhor.
 
-<p align="justify">Você fez o fork em um projeto que achou interessante e teve uma ideia para melhorar o projeto, então você faz a alteração e envia um pull request, o porque disso?</p>
+<p align="justify">Você encontrou um projeto que achou interessante e teve uma ideia para melhorar o projeto, então você faz a alteração e envia um pull request, o porque disso?</p>
 
 <p align="justify">Você fez uma cópia de um projeto que não é seu, você pode fazer alterações porém quem decide se essas alterações irão de fato serem incorporadas no projeto é seu autor, por tanto o pull request é uma contribuição que você faz para um projeto, o autor irá receber esse pull request e decidirá aceitar ou não, isso faz com que a comunidade seja ativa e existam colaborações entre os desenvolvedores da plataforma.</p>
 
@@ -305,6 +309,6 @@ O pull request é uma colaboração que podemos fazer nos projetos que fizemos f
 
 <h3 align="center">Algumas palavras</h3>
 
-<p align="justify">Este foi um breve conteúdo sobre git e github, porém ainda existem muitos conceitos para se aprofundar e praticar, espero ter passado um excelente primeira visão sobre o assunto e contruir com a passagem de conhecimento, me diverti o fazendo pois com ele pude consolidar ainda mais meus conhecimentos.</p>
+<p align="justify">Este foi um breve conteúdo sobre git e github, porém ainda existem muitos conceitos para se aprofundar e praticar, espero ter passado uma excelente primeira visão sobre o assunto e contruir com a passagem de conhecimento, me diverti o fazendo pois com ele pude consolidar ainda mais meus conhecimentos.</p>
 
 Quem sabe eu ainda volte aqui para explanar mais alguns outros comandos e maneiras de se trabalhar com esta maravilhosa ferramenta. 🖐

@@ -251,9 +251,9 @@ Para entendermos o que são branchs vamos visualizar uma imagem que resume o que
 ---
 ## git clone
 
-<p align="justify">O git clone é um comando be simples e útil, pois literalmente podemos clonar um repositório do github de alguém para nossa máquina. Quer ver?</p>
+<p align="justify">O git clone é um comando bem simples e útil, pois literalmente podemos clonar um repositório do github de alguém para nossa máquina. Quer ver?</p>
 
-Vá em um repositório de alguém, entre nele e clique no botão code e clique no botão para copiar o link.
+Vá em um repositório de alguém, entre nele e clique no botão code, clique no botão para copiar o link.
 <h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image8.png" /> </h2>
 
 <br>
@@ -277,7 +277,7 @@ $ git pull
 
 Com este comando você está seguro de está sempre trabalhando na versão mais atual de um projeto.
 
-<p align="justify">Este comando também serve para que se você efetuou o comando de clone de um repositório de alguém e quer "puxar" as novas alterações que esta pessoa por ventura tenha feito, faça um pull.</p>
+<p align="justify">Este comando também serve para o caso de você ter efetado o comando de clone de um repositório de alguém e quer "puxar" as novas alterações que esta pessoa por ventura tenha feito, faça um pull.</p>
 
 Caso não tenham novas alterações e a versão já seja a mais atual, o comando pull irá informar.
 

@@ -210,7 +210,7 @@ Para entendermos o que são branchs vamos visualizar uma imagem que resume o que
 
 - Branch
 
-<p align="justify">Uma branch é nada mais do que uuma ramificação que fazemos no nosso código para fazer alterações que não temos certeza se irá de fato entrar no projeto, pense assim, você quer colocar um novo botão na sua aplicação porém você só quer testar para ver se realmente fica legal, mas não quer fazer a inclusão de fato e se nao ficar legal você voltar para a versão anterior do código, utilize uma branch, nela você faz commits normalmente e quando sentir que está pronto e quiser incluir é só fazer a inclusão.</p>
+<p align="justify">Uma branch é nada mais do que uma ramificação que fazemos no nosso código para fazer alterações que não temos certeza se irão de fato entrar no projeto, pense assim, você quer colocar um novo botão na sua aplicação porém você só quer testar para ver se realmente fica legal, mas não quer fazer a inclusão de fato e se não ficar legal você voltar para a versão anterior do código, utilize uma branch, nela você faz commits normalmente e quando sentir que está pronto e quiser incluir é só fazer a inclusão.</p>
 
 - Comandos:
 
@@ -224,21 +224,21 @@ Para entendermos o que são branchs vamos visualizar uma imagem que resume o que
     ```bash
     $ git branch nome_da_branch
     ```
-    - Aqui temos o comando para criar uma banch, você pode nomea-lá como achar melhor, porém é interessante que o você escreva algo sucinto.
+    - Aqui temos o comando para criar uma banch, você pode nomea-lá como achar melhor, porém é interessante que você escreva algo sucinto.
 
     <br>
     
     ```bash
     $ git checkout -b "nome_da_branch
     ```
-    - Este comando também cria uma branch igualmente o comando anterior porém a diferença é que no comando anterior você somente cria a branch e depois temque entrar nela, com este comando você não só cria como já entra nela, e como navegamos nas branchs? veja no próximo topico.
+    - Este comando também cria uma branch igualmente o comando anterior, porém a diferença é que no comando anterior você somente cria a branch e depois tem que entrar nela para trabalhar, com este comando você não só cria como já entra nela, e como navegamos nas branchs? veja no próximo topico.
 
     <br>
     
     ```bash
     $ git checkout nome_da_branch
     ```
-    - Com este comando podemos transitar entre as branchs, é interesante que você visualize quais as branchs existentes com o coamndo git branch,  após isso escreve o coamndo e preste atênção no nome da branch, pois só irá funcionar se você escrever o nome da branch extamente como ela é.
+    - Com este comando podemos transitar entre as branchs, é interesante que você visualize quais as branchs existentes com o comando git branch, após isso você deve escrever o comando e preste atênção no nome da branch, pois só irá funcionar se você escrever o nome da branch extamente como ela é.
 
     <br>
 
@@ -258,7 +258,7 @@ Vá em um repositório de alguém, entre nele e clique no botão code, clique no
 
 <br>
 
-Feito isso crie uma pasta ou vá a té o local que deseja salvar este repositório em sua máquina, abra o git bash e insira o comando:
+Feito isso crie uma pasta ou vá até o local que deseja salvar este repositório em sua máquina, abra o git bash e insira o comando:
 
 <h2 align="center"> <img align="center" alt="leo-animação" height="" width="" src="./images/image9.png" /> </h2>
 
@@ -277,11 +277,8 @@ $ git pull
 
 Com este comando você está seguro de estar sempre trabalhando na versão mais atual de um projeto.
 
-<<<<<<< HEAD
 <p align="justify">Este comando também serve para o caso de você ter efetado o comando de clone de um repositório de alguém e quer "puxar" as novas alterações que esta pessoa por ventura tenha feito, faça um pull.</p>
-=======
-<p align="justify">Este comando também serve para o caso de você ter efetuado o clone de um repositório de alguém e quer "puxar" as novas alterações que esta pessoa por ventura tenha feito, faça um pull.</p>
->>>>>>> e2541ff5553157a5d7a42377ed8b7b585b1323eb
+
 
 Caso não tenham novas alterações e a versão já seja a mais atual, o comando pull irá informar.
 

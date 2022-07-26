@@ -152,6 +152,7 @@ $ git config --list
     Após digitar o comando "git add" você terá que espeficar o nome do arquivo e sua extensão, no nosso exemplo seria assim: $ git add "lista.txt"
     
     <p align="justify">Mas vamos pensar, se nós tivessemos vários arquivos no projeto, temos que escrever o comando para todos os arquivos? Não! podemos inserir todos de uma só vez com uma pequena variação deste comando, assim:</p>
+    
    ```bash
     $ git add .
     ```
@@ -194,7 +195,7 @@ E agora chegou a tão esperada hora, vamos push "empurrar" nosso projeto para o 
     2 - O "nome_da_branch" indica de onde vai partir a versão do projeto, você entenderá o que é branch na próxima sessão, o importante agora é você saber que você está na branch master, na qual o nome pode ser alterado, veremo isso também mais adiante, porém se você não a alterou, não fez nada, você está na branch master e  o comando será o seguinte:
 
      ```bash
-    $ git push -u master
+    $ git push -u origin master
     ```
 
 Agora você pode dar um refresh na página do seu github ou entrar novamente em sua conta e estará lá o seu repositório com o arquivo dentro.
